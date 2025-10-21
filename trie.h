@@ -1,5 +1,4 @@
-#ifndef TRIE_H
-#define TRIE_H
+#pragma once
 
 #include <string>
 #include <unordered_map>
@@ -19,5 +18,3 @@ class Trie {
         bool isValidPrefix(const std::string&) const;
         bool isValidWord(const std::string&) const;
 };
-
-#endif
