@@ -12,11 +12,11 @@ A simple C++ game implemented in `main.cpp`.
 1. Open terminal and navigate to the project folder.
 2. Compile the code:
 
-```g++ main.cpp -o game```
+`g++ main.cpp -o game`
 
 3. Run the game:
 
-```./game```
+`./game`
 
 ## Running in IDE (Visual Studio Code example)
 
