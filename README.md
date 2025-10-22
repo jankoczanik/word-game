@@ -25,7 +25,7 @@ Bot: p\
 You: p\
 Bot: l\
 You: e\
-Bot: s\
+Bot: s
 
 You are unable to add any more letters while it still stays a valid english word, so you **lose**.
 
