@@ -15,6 +15,8 @@ class Trie {
     public:
         Trie();
         void addWord(const std::string&);
+        void loadWords();
         bool isValidPrefix(const std::string&) const;
         bool isValidWord(const std::string&) const;
+        std::shared_ptr<TrieNode> getRoot() const;
 };

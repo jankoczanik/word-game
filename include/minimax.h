@@ -2,7 +2,7 @@
 
 #include <string>
 #include <memory>
-#include <include/trie.h>
+#include "trie.h"
 
-int minimax(std::shared_ptr<TrieNode>, const std::string&, bool);
-char bestMove(std::shared_ptr<TrieNode>, const std::string&);
+int minimax(const std::shared_ptr<TrieNode>&, const std::string&, bool, int);
+char bestMove(const std::shared_ptr<TrieNode>&, const std::string&);
