@@ -47,4 +47,4 @@ You are unable to add any more letters while keeping it a valid English word, so
 
 ## Credits:
 
-The word list sourced from the [dwyl/english-words](https://github.com/dwyl/english-words) repository
+- The word list sourced from the [dwyl/english-words](https://github.com/dwyl/english-words) repository
