@@ -14,20 +14,20 @@ Developed by [Janko](https://github.com/jankoczanik)
 
 ## How to Play:
 
-- The game starts with the user entering any <u>lowercase</u> letter
+- The game starts with the user entering any **lowercase** letter
 - The computer chooses a letter to append to the current word
 - The game ends when either the player or the computer is unable to add another letter to form a valid english word
 
 ### Example:
 
-You: a
-Bot: p
-You: p
-Bot: l
-You: e
-Bot: s
+You: a\
+Bot: p\
+You: p\
+Bot: l\
+You: e\
+Bot: s\
 
-You are unable to add any more letters while it still stays a valid english word, so you <u>lose</u>
+You are unable to add any more letters while it still stays a valid english word, so you **lose**.
 
 ## Requirements:
 
@@ -35,7 +35,7 @@ You are unable to add any more letters while it still stays a valid english word
 
 ## How to Compile: (g++ example)
 
-1. Open terminal and navigate to the <b>project folder</b>.
+1. Open terminal and navigate to the **project folder**.
 2. Compile the source code:
 
 `g++ -Iinclude src/main.cpp src/trie.cpp src/minimax.cpp`
