@@ -1,6 +1,33 @@
 # Word Game
 
-A simple C++ game implemented in `main.cpp`.
+A simple C++ word-building game implemented using a Trie data structure and Minimax algorithm.
+
+## Author:
+
+Developed by [Janko](https://github.com/jankoczanik)
+
+## Features:
+
+- Interactive gameplay against an AI bot
+- Uses a dictionary of english words to validate moves
+- Implements AI decision-making using the Minimax algorithm
+
+## How to Play:
+
+- The game starts with the user entering any <u>lowercase</u> letter
+- The computer chooses a letter to append to the current word
+- The game ends when either the player or the computer is unable to add another letter to form a valid english word
+
+### Example:
+
+You: a
+Bot: p
+You: p
+Bot: l
+You: e
+Bot: s
+
+You are unable to add any more letters while it still stays a valid english word, so you <u>lose</u>
 
 ## Requirements:
 
@@ -16,3 +43,7 @@ A simple C++ game implemented in `main.cpp`.
 3. Run the executable file:
 
 `./a`
+
+## Credits:
+
+The word list sourced from the [dwyl/english-words](https://github.com/dwyl/english-words) repository
