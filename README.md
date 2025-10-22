@@ -27,7 +27,7 @@ Bot: l\
 You: e\
 Bot: s
 
-You are unable to add any more letters while it still stays a valid english word, so you **lose**.
+You are unable to add any more letters while keeping it a valid English word, so you **lose**.
 
 ## Requirements:
 
