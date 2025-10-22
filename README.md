@@ -35,12 +35,13 @@ You are unable to add any more letters while keeping it a valid English word, so
 
 ## How to Compile: (g++ example)
 
-1. Open terminal and navigate to the **project folder**.
-2. Compile the source code:
+1. Clone the repository
+2. Open terminal and navigate to the **project folder**.
+3. Compile the source code:
 
 `g++ -Iinclude src/main.cpp src/trie.cpp src/minimax.cpp`
 
-3. Run the executable file:
+4. Run the executable file:
 
 `./a`
 
