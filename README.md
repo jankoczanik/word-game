@@ -14,9 +14,9 @@ Developed by [Janko](https://github.com/jankoczanik)
 
 ## How to Play:
 
-- The game starts with the user entering any **lowercase** letter
-- The computer chooses a letter to append to the current word
-- The game ends when either the player or the computer is unable to add another letter to form a valid english word
+- The game starts with the user entering any **lowercase** letter.
+- The computer chooses a letter to append to the current word.
+- The game ends when either the player or the computer is unable to add another letter to form a valid English word.
 
 ### Example:
 

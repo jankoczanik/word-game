@@ -37,7 +37,7 @@ int main() {
 
 char promptBot(const Trie& trie, const std::string& prefix) {
     char move = bestMove(trie.getRoot(), prefix);
-    std::cout << "Bot's move: " << move << std::endl;
+    std::cout << "Bot: " << move << std::endl;
     return move;
 }
 
@@ -46,7 +46,7 @@ char promptPlayer() {
     char move = ' ';
 
     while (move < 'a' || 'z' < move) {
-        std::cout << "Your move: ";
+        std::cout << "You: ";
         std::cin >> move;
         std::cin.clear();
     }

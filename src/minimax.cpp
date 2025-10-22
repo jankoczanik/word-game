@@ -34,8 +34,8 @@ char bestMove(const std::shared_ptr<TrieNode>& root, const std::string& prefix) 
     int bestScore = std::numeric_limits<int>::min();
     char bestChar = '?';
 
-    // 1/3 chance for bot to pick completely random move
-    if (!currentNode -> children.empty() && rand() % 3 < 1) {
+    // 1/2 chance for bot to pick completely random move
+    if (!currentNode -> children.empty() && rand() % 2 < 1) {
         int index = rand() % currentNode -> children.size();
         auto iterator = currentNode -> children.begin();
         std::advance(iterator, index);
