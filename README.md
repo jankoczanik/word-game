@@ -1,6 +1,6 @@
-# Yahtzee
+# Word Game
 
-A C++ console-based Yahtzee game played against a human player and strategic AI bot.
+A simple C++ word-building game implemented using a Trie data structure and Minimax algorithm.
 
 ## Author:
 
@@ -8,16 +8,26 @@ Developed by [Janko](https://github.com/jankoczanik)
 
 ## Features:
 
-- Play against an AI bot with basic decision-making for rerolling and scoring
-- Implements all standard Yahtzee scoring categories, including full house, straights, and yahtzee.
-- Displays a dynamic scorecard and dice rolls in the console
+- Interactive gameplay against an AI bot
+- Uses a dictionary of english words to validate moves
+- Implements AI decision-making using the Minimax algorithm
 
 ## How to Play:
 
-- The game consists of 13 turns for both the player and the AI bot
-- On each turn, the player rolls 5 dice and can choose which dice to reroll up to 2 times
-- After rolling, the user enters a number corresponding to the category they are scoring
-- After all turns, the grand totals are displayed and player with higher score wins
+- The game starts with the user entering any **lowercase** letter.
+- The computer chooses a letter to append to the current word.
+- The game ends when either the player or the computer is unable to add another letter to form a valid English word.
+
+### Example:
+
+You: a\
+Bot: p\
+You: p\
+Bot: l\
+You: e\
+Bot: s
+
+You are unable to add any more letters while keeping it a valid English word, so you **lose**.
 
 ## Requirements:
 
@@ -29,7 +39,7 @@ Developed by [Janko](https://github.com/jankoczanik)
 2. Open terminal and navigate to the **project folder**.
 3. Compile the source code:
 
-`g++ main.cpp`
+`g++ -Iinclude src/main.cpp src/trie.cpp src/minimax.cpp`
 
 4. Run the executable file:
 
@@ -37,4 +47,4 @@ Developed by [Janko](https://github.com/jankoczanik)
 
 ## Credits:
 
-- Inspired by the classic Yahtzee game
+- The word list sourced from the [dwyl/english-words](https://github.com/dwyl/english-words) repository
